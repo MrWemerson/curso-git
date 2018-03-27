@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+
+Var
+
+   A,P:real
+   S:caractere
+Inicio
+
+   escreval("Informe altura")
+   leia(A)
+   escreval("Informe o sexo F ou M")
+   leia(S)
+
+   se( S = "F" )entao
+       P <- ( 62.1 * A)- 58
+       escreval("o peso ideal é ",P)
+   senao
+        se( S = "M" )entao
+            P <- ( 72.7 * A)- 58
+            escreval("o peso ideal é ",P)
+        fimse
+   fimse
+
+Fimalgoritmo
